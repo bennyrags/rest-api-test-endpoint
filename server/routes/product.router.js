@@ -12,7 +12,6 @@ router.get('/:id', (req, res) => {
     let prodId = Number(req.params.id);
     //filter all products for the one with the matching id
     const result = products.filter(i => i.product.id === prodId);
-   console.log(result);
     if (result.length === 0) {
     res.sendStatus(500);
     }
