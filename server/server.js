@@ -7,6 +7,6 @@ app.use('/products', productRouter);
 
 
 app.listen(PORT, () =>{
-    console.log(`LISTENIN ON $g{PORT}`);
+    console.log(`LISTENIN ON ${PORT}`);
     
 })
